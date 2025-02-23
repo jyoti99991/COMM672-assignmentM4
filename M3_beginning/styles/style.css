@@ -1,0 +1,60 @@
+/* External stylesheet for Purrfect Vibes */
+
+/* 1. Set the font, size, line height, and background color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+   }
+
+/* 2. Style all headings */
+h2 {
+    color: blue;
+    border-bottom: 1px solid #929CA4;
+    width: 100%;
+}
+
+/* 3. Style the first letter of the first paragraph */
+p:first-of-type::first-letter {
+    font-size: 30px;
+}
+
+/* 4. Style the .features class */
+.features {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+/* 5. Style the two testimonials */
+#testimonial1, #testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+/* 6. Style the link in the second testimonial */
+#testimonial2 a {
+    color: blue;
+    text-decoration: none;
+}
+
+#testimonial2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* 7. Remove bullets from the management team list */
+.management-team {
+    list-style-type: none;
+}
+
+/* 8. Select the first item in the management team list and make it blue */
+.management-team li:first-child {
+    color: blue;
+}
+
+/* 9. Select the last item in the management team list and make it red */
+.management-team li:last-child {
+    color: red;
+}
+
